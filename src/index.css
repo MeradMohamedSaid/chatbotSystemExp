@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+
+  color: white;
+}
+
+#root {
+  flex: 1;
+  margin: 0;
+  background: #212121;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.233) 0px 0px 24px;
+}
+
+.botLogo {
+  background-color: hsla(0, 100%, 50%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(28, 100%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+}
+.userLogo {
+  background-color: #e0ff99;
+  background-image: radial-gradient(
+      at 88% 80%,
+      hsla(7, 77%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 34% 71%, hsla(180, 81%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 41% 90%, hsla(175, 61%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 13% 48%, hsla(274, 77%, 66%, 1) 0px, transparent 50%);
+  transition: all 0.6s ease-out;
+  cursor: pointer;
+}
+
+.userLogo:hover {
+  background-color: #99ffb8;
+  background-image: radial-gradient(
+      at 88% 80%,
+      hsla(7, 77%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 34% 71%, hsla(180, 81%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 41% 90%, hsla(175, 61%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 13% 48%, hsla(274, 77%, 66%, 1) 0px, transparent 50%);
+}
+
+.weatherLogo {
+  background-color: #f8ff99;
+  background-image: radial-gradient(
+      at 38% 38%,
+      hsla(143, 87%, 72%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 66% 50%, hsla(305, 85%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 60% 6%, hsla(19, 98%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 68% 88%, hsla(224, 83%, 78%, 1) 0px, transparent 50%);
+}

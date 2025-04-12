@@ -1,0 +1,41 @@
+/* Typewriter.css */
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typewriter p {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  text-wrap: wrap;
+  margin: 0;
+  padding-right: 10px;
+  margin-bottom: 14px;
+}
+
+.typewriter-text {
+  animation: typing 0.08s steps(1, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.status {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: #ffffff3b;
+  text-align: center;
+}
+
+.good {
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-align: center;
+  background: #4242423b;
+  color: rgb(255, 255, 255);
+}
